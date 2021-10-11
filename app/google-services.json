@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "426273552816",
+    "firebase_url": "https://lab-w5-firebase-default-rtdb.firebaseio.com",
+    "project_id": "lab-w5-firebase",
+    "storage_bucket": "lab-w5-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426273552816:android:9a93505b04e0cac0e13e75",
+        "android_client_info": {
+          "package_name": "com.example.labw5firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426273552816-rup2lr0tc5idqq6gglagd570a4uk84pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQj_sOyWg9-6Eb9uzAtfK-D1FBZNaDPFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426273552816-rup2lr0tc5idqq6gglagd570a4uk84pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426273552816:android:fc0776f21efcf21be13e75",
+        "android_client_info": {
+          "package_name": "com.example.pencaritadika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426273552816-rup2lr0tc5idqq6gglagd570a4uk84pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQj_sOyWg9-6Eb9uzAtfK-D1FBZNaDPFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426273552816-rup2lr0tc5idqq6gglagd570a4uk84pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

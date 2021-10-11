@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CDE3FF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amaranth_bold_italic"
+            android:text="Kindergarten Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addressholder"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Kindergarten Address"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/phoneholder"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Phone Number"
+            android:textColor="#000"
+            android:textSize="23sp" />
+
+
+        <TableRow
+            android:layout_width="212dp"
+            android:layout_height="95dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <Button
+                android:id="@+id/call"
+                android:layout_width="71dp"
+                android:layout_height="78dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/call"
+                app:backgroundTint="#197A16" />
+
+            <Button
+                android:id="@+id/nav"
+                android:layout_width="71dp"
+                android:layout_height="78dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/location"
+                app:backgroundTint="#3F51B5" />
+        </TableRow>
+
+
+        <TextView
+            android:id="@+id/lblRateMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Rate Me"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/avgRating"
+            android:layout_width="212dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="#000"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+</FrameLayout>
